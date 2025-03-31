@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+</head>
+<body>
+    <section>
+        
+        <picture>
+            <!-- Mobile view -->
+             <source srcset="./assets/FB_IMG_1506811952272.jpg" media="(max-width: 768px)">
+
+             <!-- Tablet view -->
+             <source srcset="./assets/FB_IMG_1516210491369.jpg" media="(min-width: 769px) and (max-width: 1024px)">
+
+             <!-- Laptop view -->
+             <source srcset="./assets/FB_IMG_1506363211787.jpg" media="(min-width: 1025px)">
+
+             <img src="./assets/FB_IMG_1506363211787.jpg" alt="Responsive Image">
+        </picture>
+    </section>
+
+    <section>
+        <h2>Funny video of a man trying to leap over a trench</h2>
+        <video controls width="250">
+          
+            <source src="/assets/VID-20170929-WA0000.mp4" type="video/mp4"/>
+          
+          </video>
+
+          <figure>
+            <h2>Listen to Forever Young by American Rapper Jay Z Ft Mr Hudson</h2>
+            <audio controls src="/assets/Jay Z ft Mr Hudson - Forever Young.mp3"></audio>
+          </figure>
+    </section>
+</body>
+</html>
